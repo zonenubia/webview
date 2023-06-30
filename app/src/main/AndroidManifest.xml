@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.webview.myapplication">
+    package="my.id.awdev.app">
 
     <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission-sdk-23 android:name="android.permission.CHANGE_WIFI_STATE" />
@@ -30,6 +30,12 @@
             <action android:name="android.intent.action.MAIN" />
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
+<!-- Sample AdMob App ID: ca-app-pub-5708227574918293~1657209679-->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5708227574918293~1657209679"/>
+  
+        
     </activity>
     </application>
 
